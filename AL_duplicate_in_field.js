@@ -69,7 +69,7 @@ function AL_duplicate_in_field(){
 	// FUNCTIONS 
 
 
-	function duplicate_selection_in_field_process()(_request_object){
+	function duplicate_selection_in_field_process(_request_object){
 		
 		
 
