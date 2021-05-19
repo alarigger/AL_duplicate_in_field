@@ -2,7 +2,7 @@ function AL_duplicate_in_field(){
 	
 	
 
-	duplicate_in_field_process();
+	duplicate_in_field_dialog();
 	
 	
 	// EXECUTION 
@@ -82,8 +82,7 @@ function AL_duplicate_in_field(){
 			var master_top_peg_X = master_top_peg_object.get_position().x
 			var master_top_peg_Y = master_top_peg_object.get_position().y
 			var master_top_peg_Z = master_top_peg_object.get_position().z
-			
-			var master_bounding_box = get_nodes_bounding_box(nodes_path_array);
+
 			var node_padding_x =400//master_bounding_box.width + 150;
 			var node_padding_y =400 //master_bounding_box.height + 150;
 			
